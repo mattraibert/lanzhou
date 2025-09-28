@@ -3,6 +3,12 @@
 # PT Workout Timer Script
 # Usage: chmod +x pt_timer.rb && ./pt_timer.rb
 
+# Prevent computer from sleeping during workout
+caffeinate_pid = spawn('caffeinate', '-d')
+
+# Ensure caffeinate is killed when script exits
+at_exit { Process.kill('TERM', caffeinate_pid) rescue nil }
+
 (1..6).each do |round|
   puts "Round #{round} of 6"
 
