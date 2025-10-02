@@ -1,0 +1,656 @@
+sun salutation
+10
+[sleep: 0.5]
+9
+[sleep: 0.5]
+8
+[sleep: 0.5]
+7
+[sleep: 0.5]
+6
+[sleep: 0.5]
+5
+[sleep: 0.5]
+4
+[sleep: 0.5]
+3
+[sleep: 0.5]
+2
+[sleep: 0.5]
+1
+[sleep: 0.5]
+sun salutation rep 1
+inhale up
+[sleep: 4]
+exhale fold
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale back
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale back
+[sleep: 4]
+breathe
+[sleep: 4]
+1
+[sleep: 4]
+2
+[sleep: 4]
+3
+[sleep: 4]
+4
+[sleep: 4]
+5
+[sleep: 4]
+inhale forward
+[sleep: 4]
+exhale down
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale hands down
+[sleep: 4]
+sun salutation rep 2
+inhale up
+[sleep: 4]
+exhale fold
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale back
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale back
+[sleep: 4]
+breathe
+[sleep: 4]
+1
+[sleep: 4]
+2
+[sleep: 4]
+3
+[sleep: 4]
+4
+[sleep: 4]
+5
+[sleep: 4]
+inhale forward
+[sleep: 4]
+exhale down
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale hands down
+[sleep: 4]
+next exercise
+kneeling windmill stretch
+10
+[sleep: 0.5]
+9
+[sleep: 0.5]
+8
+[sleep: 0.5]
+7
+[sleep: 0.5]
+6
+[sleep: 0.5]
+5
+[sleep: 0.5]
+4
+[sleep: 0.5]
+3
+[sleep: 0.5]
+2
+[sleep: 0.5]
+1
+[sleep: 0.5]
+right side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+right side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+right side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+switch
+[sleep: 5]
+left side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+left side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+left side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+next exercise
+strap hamstring stretch
+10
+[sleep: 0.5]
+9
+[sleep: 0.5]
+8
+[sleep: 0.5]
+7
+[sleep: 0.5]
+6
+[sleep: 0.5]
+5
+[sleep: 0.5]
+4
+[sleep: 0.5]
+3
+[sleep: 0.5]
+2
+[sleep: 0.5]
+1
+[sleep: 0.5]
+right side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+right side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+right side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+switch
+[sleep: 5]
+left side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+left side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+left side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+next exercise
+active pigeon pose
+10
+[sleep: 0.5]
+9
+[sleep: 0.5]
+8
+[sleep: 0.5]
+7
+[sleep: 0.5]
+6
+[sleep: 0.5]
+5
+[sleep: 0.5]
+4
+[sleep: 0.5]
+3
+[sleep: 0.5]
+2
+[sleep: 0.5]
+1
+[sleep: 0.5]
+right side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+right side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+right side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+switch
+[sleep: 5]
+left side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+left side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+left side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+next exercise
+passive pigeon pose
+10
+[sleep: 0.5]
+9
+[sleep: 0.5]
+8
+[sleep: 0.5]
+7
+[sleep: 0.5]
+6
+[sleep: 0.5]
+5
+[sleep: 0.5]
+4
+[sleep: 0.5]
+3
+[sleep: 0.5]
+2
+[sleep: 0.5]
+1
+[sleep: 0.5]
+right side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+30 seconds
+[sleep: 10]
+40 seconds
+[sleep: 10]
+50 seconds
+[sleep: 10]
+60 seconds
+[sleep: 10]
+70 seconds
+[sleep: 10]
+80 seconds
+[sleep: 10]
+switch
+[sleep: 0]
+left side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+30 seconds
+[sleep: 10]
+40 seconds
+[sleep: 10]
+50 seconds
+[sleep: 10]
+60 seconds
+[sleep: 10]
+70 seconds
+[sleep: 10]
+80 seconds
+[sleep: 10]
+next exercise
+pigeon prep
+10
+[sleep: 0.5]
+9
+[sleep: 0.5]
+8
+[sleep: 0.5]
+7
+[sleep: 0.5]
+6
+[sleep: 0.5]
+5
+[sleep: 0.5]
+4
+[sleep: 0.5]
+3
+[sleep: 0.5]
+2
+[sleep: 0.5]
+1
+[sleep: 0.5]
+right side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+right side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+right side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+switch
+[sleep: 5]
+left side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+left side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+left side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+next exercise
+blocked flexed dead bug
+10
+[sleep: 0.5]
+9
+[sleep: 0.5]
+8
+[sleep: 0.5]
+7
+[sleep: 0.5]
+6
+[sleep: 0.5]
+5
+[sleep: 0.5]
+4
+[sleep: 0.5]
+3
+[sleep: 0.5]
+2
+[sleep: 0.5]
+1
+[sleep: 0.5]
+right rep 1 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+left rep 2 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+right rep 3 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+left rep 4 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+right rep 5 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rest
+[sleep: 30]
+right rep 1 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+left rep 2 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+right rep 3 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+left rep 4 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+right rep 5 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+next exercise
+bridge
+10
+[sleep: 0.5]
+9
+[sleep: 0.5]
+8
+[sleep: 0.5]
+7
+[sleep: 0.5]
+6
+[sleep: 0.5]
+5
+[sleep: 0.5]
+4
+[sleep: 0.5]
+3
+[sleep: 0.5]
+2
+[sleep: 0.5]
+1
+[sleep: 0.5]
+rep 1 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 2 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 3 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 4 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 5 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 6 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 7 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 8 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 9 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 10 set 1
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rest
+[sleep: 30]
+rep 1 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 2 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 3 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 4 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 5 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 6 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 7 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 8 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 9 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+rep 10 set 2
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+workout complete

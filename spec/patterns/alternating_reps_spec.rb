@@ -16,48 +16,58 @@ RSpec.describe AlternatingReps do
     pattern.perform
 
     expected_output = <<~OUTPUT.strip
-      right rep 1 set 1
-      start [[slnc 500]]
+      right
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
-      left rep 2 set 1
-      start [[slnc 500]]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
+      left
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
-      right rep 3 set 1
-      start [[slnc 500]]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
+      right
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
-      left rep 4 set 1
-      start [[slnc 500]]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
+      left
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
-      right rep 5 set 1
-      start [[slnc 500]]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
+      right
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
       rest
       [sleep: 30]
-      right rep 1 set 2
-      start [[slnc 500]]
+      right
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
-      left rep 2 set 2
-      start [[slnc 500]]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
+      left
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
-      right rep 3 set 2
-      start [[slnc 500]]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
+      right
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
-      left rep 4 set 2
-      start [[slnc 500]]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
+      left
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
-      right rep 5 set 2
-      start [[slnc 500]]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
+      right
       [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 10]
+      [sleep: 5.0]
+      halfway
+      [sleep: 5.0]
     OUTPUT
 
     expect(speaker.to_s).to eq(expected_output)

@@ -16,7 +16,7 @@ class AlternatingReps
         side = rep_index.even? ? "right" : "left"
         rep_num = rep_index + 1
 
-        @speaker.say("#{side} rep #{rep_num} set #{set_num}")
+        @speaker.say("#{side}")
         perform_rep
 
         is_last_rep_of_set = (rep_index == @reps - 1)
@@ -35,8 +35,15 @@ class AlternatingReps
   private
 
   def perform_rep
-    @speaker.say("start [[slnc 500]]")
     @speaker.play_sound('/System/Library/Sounds/Glass.aiff')
-    @speaker.sleep @duration
+
+    halfway = @duration / 2.0
+    if halfway > 0
+      @speaker.sleep halfway
+      @speaker.say("halfway")
+      @speaker.sleep halfway
+    else
+      @speaker.sleep @duration
+    end
   end
 end

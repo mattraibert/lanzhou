@@ -1,5 +1,5 @@
 class Speaker
-  def initialize(voice = "Karen (Premium)")
+  def initialize(voice = "Ava (Enhanced)")
     @voice = voice
   end
 
