@@ -1,28 +1,5 @@
 require_relative '../../lib/patterns/warm_up_flow'
-
-class TextPrintingSpeaker
-  attr_reader :output
-
-  def initialize
-    @output = []
-  end
-
-  def say(text)
-    @output << text
-  end
-
-  def play_sound(sound_path)
-    @output << "[sound: #{sound_path}]"
-  end
-
-  def sleep(seconds)
-    @output << "[sleep: #{seconds}]"
-  end
-
-  def to_s
-    @output.join("\n")
-  end
-end
+require_relative '../support/text_printing_speaker'
 
 RSpec.describe WarmUpFlow do
   it 'announces the complete warm-up flow sequence' do

@@ -68,6 +68,7 @@ class RightThenLeft
   end
 
   def announce_remaining_reps(round)
+    total_rounds = @sets * 2
     remaining = if round < @sets
       @sets - round
     else

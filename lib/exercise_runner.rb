@@ -86,9 +86,7 @@ class ExerciseRunner
   def announce_completion(exercise_round)
     if exercise_round == ROUNDS_PER_SIDE
       @speaker.say("switch")
-    elsif exercise_round == ROUNDS_PER_EXERCISE
-      @speaker.say(@is_last_exercise ? "workout complete" : "next exercise")
-    else
+    elsif exercise_round != ROUNDS_PER_EXERCISE
       @speaker.say("rest")
       announce_remaining_reps(exercise_round)
     end
@@ -103,7 +101,7 @@ class ExerciseRunner
   end
 
   def rest_unless_final_round(exercise_round)
-    return if @is_last_exercise && exercise_round == ROUNDS_PER_EXERCISE
-    sleep @rest
+    return if exercise_round == ROUNDS_PER_EXERCISE
+    @speaker.sleep @rest
   end
 end
