@@ -21,7 +21,7 @@ class ExerciseRunner
   def perform
     loop do
       puts "\n=== Exercise #{@exercise_index + 1} of #{@total_exercises}: #{@exercise_name} ==="
-      puts "(Press: 's' skip | 'r' restart | 'p' pause | 'q' or Ctrl-C quit)"
+      puts "(Press: 's' skip | 'b' back | 'r' restart | 'p' pause | 'q' or Ctrl-C quit)"
 
       SkipHandler.start_listening(Thread.current)
 
@@ -45,7 +45,7 @@ class ExerciseRunner
       rescue RestartExercise
         # Restart the exercise - loop will continue
         next
-      rescue QuitWorkout
+      rescue PreviousExercise, QuitWorkout
         # Re-raise to propagate up to main program
         raise
       ensure

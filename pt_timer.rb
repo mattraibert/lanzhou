@@ -28,9 +28,20 @@ end
 puts "Starting from exercise #{start_index + 1}: #{exercises[start_index][:name]}\n\n" if start_index > 0
 
 begin
-  exercises[start_index..-1].each_with_index do |exercise, offset|
-    exercise_index = start_index + offset
-    ExerciseRunner.new(exercise, exercise_index, exercises.length).perform
+  current_index = start_index
+
+  while current_index < exercises.length
+    begin
+      exercise = exercises[current_index]
+      ExerciseRunner.new(exercise, current_index, exercises.length).perform
+      current_index += 1  # Move to next exercise
+    rescue PreviousExercise
+      if current_index > 0
+        current_index -= 1  # Go back to previous exercise
+      else
+        puts "\nAlready at first exercise!"
+      end
+    end
   end
 
   puts "Workout finished!"
