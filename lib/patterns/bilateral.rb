@@ -1,4 +1,4 @@
-require_relative '../audio_constants'
+require_relative '../rep_performer'
 
 class Bilateral
   def initialize(exercise, speaker)
@@ -8,6 +8,7 @@ class Bilateral
     @duration = exercise[:duration]
     @rest = exercise[:rest]
     @speaker = speaker
+    @rep_performer = RepPerformer.new(speaker, exercise[:duration])
   end
 
   def perform
@@ -19,7 +20,7 @@ class Bilateral
         rep_num = rep_index + 1
 
         @speaker.say(rep_num)
-        perform_rep
+        @rep_performer.perform
 
         is_last_rep_of_set = (rep_index == @reps - 1)
         is_last_set = (set_index == @sets - 1)
@@ -32,13 +33,5 @@ class Bilateral
         end
       end
     end
-  end
-
-  private
-
-  def perform_rep
-    @speaker.play_sound(START_SOUND)
-    @speaker.sleep @duration
-    @speaker.play_sound(END_SOUND)
   end
 end
