@@ -36,7 +36,7 @@ class ExerciseRunner
     # Announce exercise and countdown
     @speaker.say("#{@exercise_name}")
     3.times do |count|
-      @speaker.play_sound('/System/Library/Sounds/Funk.aiff')
+      @speaker.play_sound('/System/Library/Sounds/Ping.aiff')
       @speaker.sleep 1
     end
 

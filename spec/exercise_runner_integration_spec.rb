@@ -27,11 +27,11 @@ RSpec.describe ExerciseRunner do
 
     expected_output = <<~OUTPUT.strip
       test exercise
-      [sound: /System/Library/Sounds/Funk.aiff]
+      [sound: /System/Library/Sounds/Ping.aiff]
       [sleep: 1]
-      [sound: /System/Library/Sounds/Funk.aiff]
+      [sound: /System/Library/Sounds/Ping.aiff]
       [sleep: 1]
-      [sound: /System/Library/Sounds/Funk.aiff]
+      [sound: /System/Library/Sounds/Ping.aiff]
       [sleep: 1]
       next exercise
     OUTPUT
@@ -64,11 +64,11 @@ RSpec.describe ExerciseRunner do
 
     expected_output = <<~OUTPUT.strip
       final exercise
-      [sound: /System/Library/Sounds/Funk.aiff]
+      [sound: /System/Library/Sounds/Ping.aiff]
       [sleep: 1]
-      [sound: /System/Library/Sounds/Funk.aiff]
+      [sound: /System/Library/Sounds/Ping.aiff]
       [sleep: 1]
-      [sound: /System/Library/Sounds/Funk.aiff]
+      [sound: /System/Library/Sounds/Ping.aiff]
       [sleep: 1]
       workout complete
     OUTPUT

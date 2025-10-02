@@ -53,10 +53,9 @@ RSpec.describe 'Full workout routine' do
     expect(output).to include("left side first rep")
     expect(output).to include("switch")
 
-    # Check for alternating reps pattern (now simplified)
+    # Check for alternating reps pattern
     expect(output).to include("right")
     expect(output).to include("left")
-    expect(output).to include("halfway")
 
     # Check for bilateral pattern
     expect(output).to include("rep 1 set 1")

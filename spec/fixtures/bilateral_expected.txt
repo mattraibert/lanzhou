@@ -1,122 +1,102 @@
 rep 1 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 2 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 3 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 4 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 5 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 6 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 7 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 8 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 9 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 10 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rest
 [sleep: 30]
 rep 1 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 2 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 3 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 4 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 5 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 6 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 7 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 8 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 9 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rep 10 set 2
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 5.0]
-halfway
-[sleep: 5.0]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]

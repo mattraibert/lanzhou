@@ -36,14 +36,7 @@ class Bilateral
   def perform_rep
     @speaker.say("start [[slnc 500]]")
     @speaker.play_sound('/System/Library/Sounds/Glass.aiff')
-
-    halfway = @duration / 2.0
-    if halfway > 0
-      @speaker.sleep halfway
-      @speaker.say("halfway")
-      @speaker.sleep halfway
-    else
-      @speaker.sleep @duration
-    end
+    @speaker.sleep @duration
+    @speaker.play_sound('/System/Library/Sounds/Hero.aiff')
   end
 end

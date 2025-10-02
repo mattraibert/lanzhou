@@ -56,6 +56,7 @@ class RightThenLeft
       elapsed = notification_time
     end
     @speaker.sleep(@duration - elapsed)
+    @speaker.play_sound('/System/Library/Sounds/Hero.aiff')
   end
 
   def announce_completion(set_num, total_sets)
