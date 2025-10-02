@@ -113,7 +113,6 @@ kneeling windmill stretch
 [sound: /System/Library/Sounds/Basso.aiff]
 [sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -125,7 +124,6 @@ rest
 two left
 [sleep: 5]
 right side second rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -137,7 +135,6 @@ rest
 one left
 [sleep: 5]
 right side third rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -148,7 +145,6 @@ start [[slnc 500]]
 switch
 [sleep: 5]
 left side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -160,7 +156,6 @@ rest
 two left
 [sleep: 5]
 left side second rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -172,7 +167,6 @@ rest
 one left
 [sleep: 5]
 left side third rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -189,7 +183,6 @@ strap hamstring stretch
 [sound: /System/Library/Sounds/Basso.aiff]
 [sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -201,7 +194,6 @@ rest
 two left
 [sleep: 5]
 right side second rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -213,7 +205,6 @@ rest
 one left
 [sleep: 5]
 right side third rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -224,7 +215,6 @@ start [[slnc 500]]
 switch
 [sleep: 5]
 left side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -236,7 +226,6 @@ rest
 two left
 [sleep: 5]
 left side second rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -248,7 +237,6 @@ rest
 one left
 [sleep: 5]
 left side third rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -265,7 +253,6 @@ active pigeon pose
 [sound: /System/Library/Sounds/Basso.aiff]
 [sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -277,7 +264,6 @@ rest
 two left
 [sleep: 5]
 right side second rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -289,7 +275,6 @@ rest
 one left
 [sleep: 5]
 right side third rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -300,7 +285,6 @@ start [[slnc 500]]
 switch
 [sleep: 5]
 left side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -312,7 +296,6 @@ rest
 two left
 [sleep: 5]
 left side second rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -324,7 +307,6 @@ rest
 one left
 [sleep: 5]
 left side third rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -341,7 +323,6 @@ passive pigeon pose
 [sound: /System/Library/Sounds/Basso.aiff]
 [sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -364,7 +345,6 @@ start [[slnc 500]]
 switch
 [sleep: 0]
 left side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -393,7 +373,6 @@ pigeon prep
 [sound: /System/Library/Sounds/Basso.aiff]
 [sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -405,7 +384,6 @@ rest
 two left
 [sleep: 5]
 right side second rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -417,7 +395,6 @@ rest
 one left
 [sleep: 5]
 right side third rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -428,7 +405,6 @@ start [[slnc 500]]
 switch
 [sleep: 5]
 left side first rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -440,7 +416,6 @@ rest
 two left
 [sleep: 5]
 left side second rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -452,7 +427,6 @@ rest
 one left
 [sleep: 5]
 left side third rep
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 10 seconds
@@ -469,104 +443,84 @@ blocked flexed dead bug
 [sound: /System/Library/Sounds/Basso.aiff]
 [sound: /System/Library/Sounds/Basso.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 rest
 [sleep: 30]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 right
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 left
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
@@ -580,52 +534,42 @@ bridge
 [sound: /System/Library/Sounds/Basso.aiff]
 set 1
 1
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 2
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 3
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 4
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 5
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 6
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 7
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 8
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 9
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 10
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
@@ -633,52 +577,42 @@ rest
 [sleep: 30]
 set 2
 1
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 2
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 3
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 4
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 5
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 6
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 7
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 8
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 9
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 10
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]

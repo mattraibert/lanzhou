@@ -1,51 +1,41 @@
 set 1
 1
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 2
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 3
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 4
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 5
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 6
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 7
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 8
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 9
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 10
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
@@ -53,52 +43,42 @@ rest
 [sleep: 30]
 set 2
 1
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 2
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 3
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 4
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 5
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 6
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 7
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 8
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 9
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 10
-start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]

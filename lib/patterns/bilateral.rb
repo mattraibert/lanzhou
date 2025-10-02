@@ -19,7 +19,7 @@ class Bilateral
       @reps.times do |rep_index|
         rep_num = rep_index + 1
 
-        @speaker.say(rep_num)
+        @speaker.say(rep_num.to_s)
         @rep_performer.perform
 
         is_last_rep_of_set = (rep_index == @reps - 1)

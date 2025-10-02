@@ -7,7 +7,6 @@ class RepPerformer
   end
 
   def perform
-    @speaker.say("start [[slnc 500]]")
     @speaker.play_sound(START_SOUND)
 
     elapsed = 0
