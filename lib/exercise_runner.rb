@@ -9,7 +9,7 @@ REST_DURATION = 2
 COUNTDOWN_DURATION = 5
 
 # Notification intervals during stretch (in seconds)
-STRETCH_NOTIFICATIONS = [10, 20, 25]
+STRETCH_NOTIFICATIONS = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
 
 # Sound file
 START_SOUND = '/System/Library/Sounds/Glass.aiff'
@@ -17,6 +17,9 @@ START_SOUND = '/System/Library/Sounds/Glass.aiff'
 class ExerciseRunner
   def initialize(exercise, exercise_index, total_exercises, speaker: Speaker.new)
     @exercise = exercise
+    @exercise_name = exercise[:name]
+    @duration = exercise[:duration]
+    @rest = exercise[:rest]
     @exercise_index = exercise_index
     @total_exercises = total_exercises
     @is_last_exercise = exercise_index == total_exercises - 1
@@ -24,7 +27,7 @@ class ExerciseRunner
   end
 
   def perform
-    puts "\n=== Exercise #{@exercise_index + 1} of #{@total_exercises}: #{@exercise} ==="
+    puts "\n=== Exercise #{@exercise_index + 1} of #{@total_exercises}: #{@exercise_name} ==="
 
     (1..ROUNDS_PER_EXERCISE).each do |exercise_round|
       side, rep = determine_side_and_rep(exercise_round)
@@ -56,7 +59,7 @@ class ExerciseRunner
   end
 
   def announce_and_countdown(side, rep_word)
-    @speaker.say("#{@exercise} #{side} #{rep_word} rep")
+    @speaker.say("#{@exercise_name} #{side} #{rep_word} rep")
     COUNTDOWN_DURATION.downto(1) do |count|
       @speaker.say(count.to_s)
       sleep 0.5
@@ -68,12 +71,13 @@ class ExerciseRunner
     @speaker.play_sound(START_SOUND)
 
     elapsed = 0
-    STRETCH_NOTIFICATIONS.each do |notification_time|
+    notifications = STRETCH_NOTIFICATIONS.select { |t| t < @duration }
+    notifications.each do |notification_time|
       sleep(notification_time - elapsed)
       @speaker.say("#{notification_time} seconds")
       elapsed = notification_time
     end
-    sleep(STRETCH_DURATION - elapsed)
+    sleep(@duration - elapsed)
   end
 
   def announce_completion(exercise_round)
@@ -97,6 +101,6 @@ class ExerciseRunner
 
   def rest_unless_final_round(exercise_round)
     return if @is_last_exercise && exercise_round == ROUNDS_PER_EXERCISE
-    sleep REST_DURATION
+    sleep @rest
   end
 end
