@@ -1,0 +1,62 @@
+right side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+right side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+right side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+switch
+[sleep: 5]
+left side first rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+two left
+[sleep: 5]
+left side second rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]
+rest
+one left
+[sleep: 5]
+left side third rep
+start [[slnc 500]]
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+10 seconds
+[sleep: 10]
+20 seconds
+[sleep: 10]

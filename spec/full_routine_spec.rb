@@ -34,7 +34,7 @@ RSpec.describe 'Full workout routine' do
     output = speaker.to_s
 
     # Write the output to a file for inspection
-    File.write('spec/full_routine_output.txt', output)
+    File.write('spec/fixtures/full_routine_output.txt', output)
 
     # Print the full routine
     puts "\n" + "="*80
@@ -45,7 +45,7 @@ RSpec.describe 'Full workout routine' do
     puts "\n✓ Full routine completed successfully!"
     puts "  Total exercises: #{exercises.length}"
     puts "  Total output lines: #{output.lines.count}"
-    puts "  Output saved to: spec/full_routine_output.txt"
+    puts "  Output saved to: spec/fixtures/full_routine_output.txt"
 
     # Verify the output contains expected elements
     expect(output).to include("sun salutation rep 1")
@@ -67,9 +67,10 @@ RSpec.describe 'Full workout routine' do
     expect(output).to include("left side first rep")
     expect(output).to include("switch")
 
-    # Check for alternating reps pattern
-    expect(output).to include("right rep 1 set 1")
-    expect(output).to include("left rep 2 set 1")
+    # Check for alternating reps pattern (now simplified)
+    expect(output).to include("right")
+    expect(output).to include("left")
+    expect(output).to include("halfway")
 
     # Check for bilateral pattern
     expect(output).to include("rep 1 set 1")

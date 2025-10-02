@@ -1,0 +1,52 @@
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+rest
+[sleep: 30]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 5.0]
+halfway
+[sleep: 5.0]

@@ -15,61 +15,11 @@ RSpec.describe AlternatingReps do
     pattern = AlternatingReps.new(exercise, speaker)
     pattern.perform
 
-    expected_output = <<~OUTPUT.strip
-      right
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      left
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      right
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      left
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      right
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      rest
-      [sleep: 30]
-      right
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      left
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      right
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      left
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-      right
-      [sound: /System/Library/Sounds/Glass.aiff]
-      [sleep: 5.0]
-      halfway
-      [sleep: 5.0]
-    OUTPUT
+    output = speaker.to_s
+    File.write('spec/fixtures/alternating_reps_output.txt', output)
 
-    expect(speaker.to_s).to eq(expected_output)
+    expected_output = File.read('spec/fixtures/alternating_reps_expected.txt').strip
+
+    expect(output).to eq(expected_output)
   end
 end

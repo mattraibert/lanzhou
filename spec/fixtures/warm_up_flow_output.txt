@@ -1,0 +1,66 @@
+sun salutation rep 1
+inhale up
+[sleep: 4]
+exhale fold
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale back
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale back
+[sleep: 4]
+breathe
+[sleep: 4]
+1
+[sleep: 4]
+2
+[sleep: 4]
+3
+[sleep: 4]
+4
+[sleep: 4]
+5
+[sleep: 4]
+inhale forward
+[sleep: 4]
+exhale down
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale hands down
+[sleep: 4]
+sun salutation rep 2
+inhale up
+[sleep: 4]
+exhale fold
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale back
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale back
+[sleep: 4]
+breathe
+[sleep: 4]
+1
+[sleep: 4]
+2
+[sleep: 4]
+3
+[sleep: 4]
+4
+[sleep: 4]
+5
+[sleep: 4]
+inhale forward
+[sleep: 4]
+exhale down
+[sleep: 4]
+inhale up
+[sleep: 4]
+exhale hands down
+[sleep: 4]
