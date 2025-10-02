@@ -1,84 +1,117 @@
 sun salutation
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
 sun salutation rep 1
 inhale up
-[sleep: 4]
+[sleep: 3]
 exhale fold
-[sleep: 4]
+[sleep: 3]
 inhale up
-[sleep: 4]
+[sleep: 3]
 exhale back
-[sleep: 4]
+[sleep: 3]
 inhale up
-[sleep: 4]
+[sleep: 3]
 exhale back
-[sleep: 4]
+[sleep: 3]
 breathe
-[sleep: 4]
+[sleep: 3]
 1
-[sleep: 4]
+[sleep: 3]
 2
-[sleep: 4]
+[sleep: 3]
 3
-[sleep: 4]
+[sleep: 3]
 4
-[sleep: 4]
+[sleep: 3]
 5
-[sleep: 4]
+[sleep: 3]
 inhale forward
-[sleep: 4]
+[sleep: 3]
 exhale down
-[sleep: 4]
+[sleep: 3]
 inhale up
-[sleep: 4]
+[sleep: 3]
 exhale hands down
-[sleep: 4]
+[sleep: 3]
 sun salutation rep 2
 inhale up
-[sleep: 4]
+[sleep: 3]
 exhale fold
-[sleep: 4]
+[sleep: 3]
 inhale up
-[sleep: 4]
+[sleep: 3]
 exhale back
-[sleep: 4]
+[sleep: 3]
 inhale up
-[sleep: 4]
+[sleep: 3]
 exhale back
-[sleep: 4]
+[sleep: 3]
 breathe
-[sleep: 4]
+[sleep: 3]
 1
-[sleep: 4]
+[sleep: 3]
 2
-[sleep: 4]
+[sleep: 3]
 3
-[sleep: 4]
+[sleep: 3]
 4
-[sleep: 4]
+[sleep: 3]
 5
-[sleep: 4]
+[sleep: 3]
 inhale forward
-[sleep: 4]
+[sleep: 3]
 exhale down
-[sleep: 4]
+[sleep: 3]
 inhale up
-[sleep: 4]
+[sleep: 3]
 exhale hands down
-[sleep: 4]
+[sleep: 3]
+sun salutation rep 3
+inhale up
+[sleep: 3]
+exhale fold
+[sleep: 3]
+inhale up
+[sleep: 3]
+exhale back
+[sleep: 3]
+inhale up
+[sleep: 3]
+exhale back
+[sleep: 3]
+breathe
+[sleep: 3]
+1
+[sleep: 3]
+2
+[sleep: 3]
+3
+[sleep: 3]
+4
+[sleep: 3]
+5
+[sleep: 3]
+inhale forward
+[sleep: 3]
+exhale down
+[sleep: 3]
+inhale up
+[sleep: 3]
+exhale hands down
+[sleep: 3]
 next exercise
 kneeling windmill stretch
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -87,7 +120,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -99,7 +132,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -111,7 +144,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 switch
 [sleep: 5]
 left side first rep
@@ -122,7 +155,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -134,7 +167,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -146,15 +179,15 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 next exercise
 strap hamstring stretch
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -163,7 +196,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -175,7 +208,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -187,7 +220,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 switch
 [sleep: 5]
 left side first rep
@@ -198,7 +231,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -210,7 +243,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -222,15 +255,15 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 next exercise
 active pigeon pose
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -239,7 +272,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -251,7 +284,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -263,7 +296,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 switch
 [sleep: 5]
 left side first rep
@@ -274,7 +307,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -286,7 +319,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -298,15 +331,15 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 next exercise
 passive pigeon pose
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -327,7 +360,7 @@ start [[slnc 500]]
 [sleep: 10]
 80 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 switch
 [sleep: 0]
 left side first rep
@@ -350,15 +383,15 @@ start [[slnc 500]]
 [sleep: 10]
 80 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 next exercise
 pigeon prep
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -367,7 +400,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -379,7 +412,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -391,7 +424,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 switch
 [sleep: 5]
 left side first rep
@@ -402,7 +435,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -414,7 +447,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -426,187 +459,187 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 next exercise
 blocked flexed dead bug
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 [sleep: 30]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 next exercise
 bridge
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
-[sound: /System/Library/Sounds/Ping.aiff]
-[sleep: 1]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
+[sound: /System/Library/Sounds/Basso.aiff]
 set 1
 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 4
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 5
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 6
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 7
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 8
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 9
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 10
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 [sleep: 30]
 set 2
 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 4
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 5
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 6
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 7
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 8
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 9
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 10
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 workout complete

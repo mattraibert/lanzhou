@@ -38,6 +38,6 @@ class AlternatingReps
   def perform_rep
     @speaker.play_sound('/System/Library/Sounds/Glass.aiff')
     @speaker.sleep @duration
-    @speaker.play_sound('/System/Library/Sounds/Hero.aiff')
+    @speaker.play_sound('/System/Library/Sounds/Bottle.aiff')
   end
 end

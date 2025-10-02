@@ -2,83 +2,83 @@ set 1
 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 4
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 5
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 6
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 7
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 8
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 9
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 10
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 [sleep: 30]
 set 2
 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 4
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 5
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 6
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 7
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 8
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 9
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 10
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]

@@ -6,7 +6,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -18,7 +18,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -30,7 +30,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 switch
 [sleep: 5]
 left side first rep
@@ -41,7 +41,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 two left
 [sleep: 5]
@@ -53,7 +53,7 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
 rest
 one left
 [sleep: 5]
@@ -65,4 +65,4 @@ start [[slnc 500]]
 [sleep: 10]
 20 seconds
 [sleep: 10]
-[sound: /System/Library/Sounds/Hero.aiff]
+[sound: /System/Library/Sounds/Bottle.aiff]
