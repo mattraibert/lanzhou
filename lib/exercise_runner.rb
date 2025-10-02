@@ -35,9 +35,9 @@ class ExerciseRunner
 
     # Announce exercise and countdown
     @speaker.say("#{@exercise_name}")
-    10.downto(1) do |count|
-      @speaker.say(count.to_s)
-      @speaker.sleep 0.5
+    3.times do |count|
+      @speaker.play_sound('/System/Library/Sounds/Funk.aiff')
+      @speaker.sleep 1
     end
 
     # Dispatch to pattern handler

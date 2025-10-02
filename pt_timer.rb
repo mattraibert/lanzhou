@@ -1,9 +1,10 @@
 #!/usr/bin/env ruby
-require 'csv'
 require_relative 'lib/exercise_runner'
+require_relative 'lib/workout_loader'
 
 # PT Workout Timer Script
-# Usage: chmod +x pt_timer.rb && ./pt_timer.rb
+# Usage: chmod +x pt_timer.rb && ./pt_timer.rb [start_index]
+# Example: ./pt_timer.rb 3  (starts from 3rd exercise, 0-indexed)
 
 # Prevent computer from sleeping during workout
 caffeinate_pid = spawn('caffeinate', '-d')
@@ -11,24 +12,22 @@ caffeinate_pid = spawn('caffeinate', '-d')
 # Ensure caffeinate is killed when script exits
 at_exit { Process.kill('TERM', caffeinate_pid) rescue nil }
 
-def parse_duration(duration_str)
-  return 0 if duration_str.nil? || duration_str.strip.empty?
-  duration_str.to_i
-end
-
 # Read exercises from CSV
-exercises = CSV.read('exercises.csv', headers: true).map do |row|
-  {
-    name: row['exercise_name'],
-    sets: row['sets'].to_i,
-    reps: row['reps'].to_i,
-    duration: parse_duration(row['duration']),
-    rest: parse_duration(row['rest']),
-    pattern: row['pattern']
-  }
+exercises = WorkoutLoader.load_exercises
+
+# Get starting index from command line argument (default to 0)
+start_index = ARGV[0] ? ARGV[0].to_i : 0
+
+# Validate start_index
+if start_index < 0 || start_index >= exercises.length
+  puts "Invalid start index. Must be between 0 and #{exercises.length - 1}"
+  exit 1
 end
 
-exercises.each_with_index do |exercise, exercise_index|
+puts "Starting from exercise #{start_index + 1}: #{exercises[start_index][:name]}\n\n" if start_index > 0
+
+exercises[start_index..-1].each_with_index do |exercise, offset|
+  exercise_index = start_index + offset
   ExerciseRunner.new(exercise, exercise_index, exercises.length).perform
 end
 

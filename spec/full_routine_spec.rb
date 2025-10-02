@@ -1,27 +1,13 @@
-require 'csv'
 require_relative '../lib/exercise_runner'
+require_relative '../lib/workout_loader'
 require_relative 'support/text_printing_speaker'
 
 RSpec.describe 'Full workout routine' do
   it 'runs the complete routine from exercises.csv' do
     speaker = TextPrintingSpeaker.new
 
-    def parse_duration(duration_str)
-      return 0 if duration_str.nil? || duration_str.strip.empty?
-      duration_str.to_i
-    end
-
     # Read exercises from CSV
-    exercises = CSV.read('exercises.csv', headers: true).map do |row|
-      {
-        name: row['exercise_name'],
-        sets: row['sets'].to_i,
-        reps: row['reps'].to_i,
-        duration: parse_duration(row['duration']),
-        rest: parse_duration(row['rest']),
-        pattern: row['pattern']
-      }
-    end
+    exercises = WorkoutLoader.load_exercises
 
     # Run each exercise
     exercises.each_with_index do |exercise, exercise_index|

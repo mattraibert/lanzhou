@@ -1,24 +1,10 @@
 sun salutation
-10
-[sleep: 0.5]
-9
-[sleep: 0.5]
-8
-[sleep: 0.5]
-7
-[sleep: 0.5]
-6
-[sleep: 0.5]
-5
-[sleep: 0.5]
-4
-[sleep: 0.5]
-3
-[sleep: 0.5]
-2
-[sleep: 0.5]
-1
-[sleep: 0.5]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
 sun salutation rep 1
 inhale up
 [sleep: 4]
@@ -87,26 +73,12 @@ exhale hands down
 [sleep: 4]
 next exercise
 kneeling windmill stretch
-10
-[sleep: 0.5]
-9
-[sleep: 0.5]
-8
-[sleep: 0.5]
-7
-[sleep: 0.5]
-6
-[sleep: 0.5]
-5
-[sleep: 0.5]
-4
-[sleep: 0.5]
-3
-[sleep: 0.5]
-2
-[sleep: 0.5]
-1
-[sleep: 0.5]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -171,26 +143,12 @@ start [[slnc 500]]
 [sleep: 10]
 next exercise
 strap hamstring stretch
-10
-[sleep: 0.5]
-9
-[sleep: 0.5]
-8
-[sleep: 0.5]
-7
-[sleep: 0.5]
-6
-[sleep: 0.5]
-5
-[sleep: 0.5]
-4
-[sleep: 0.5]
-3
-[sleep: 0.5]
-2
-[sleep: 0.5]
-1
-[sleep: 0.5]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -255,26 +213,12 @@ start [[slnc 500]]
 [sleep: 10]
 next exercise
 active pigeon pose
-10
-[sleep: 0.5]
-9
-[sleep: 0.5]
-8
-[sleep: 0.5]
-7
-[sleep: 0.5]
-6
-[sleep: 0.5]
-5
-[sleep: 0.5]
-4
-[sleep: 0.5]
-3
-[sleep: 0.5]
-2
-[sleep: 0.5]
-1
-[sleep: 0.5]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -339,26 +283,12 @@ start [[slnc 500]]
 [sleep: 10]
 next exercise
 passive pigeon pose
-10
-[sleep: 0.5]
-9
-[sleep: 0.5]
-8
-[sleep: 0.5]
-7
-[sleep: 0.5]
-6
-[sleep: 0.5]
-5
-[sleep: 0.5]
-4
-[sleep: 0.5]
-3
-[sleep: 0.5]
-2
-[sleep: 0.5]
-1
-[sleep: 0.5]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -403,26 +333,12 @@ start [[slnc 500]]
 [sleep: 10]
 next exercise
 pigeon prep
-10
-[sleep: 0.5]
-9
-[sleep: 0.5]
-8
-[sleep: 0.5]
-7
-[sleep: 0.5]
-6
-[sleep: 0.5]
-5
-[sleep: 0.5]
-4
-[sleep: 0.5]
-3
-[sleep: 0.5]
-2
-[sleep: 0.5]
-1
-[sleep: 0.5]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
 right side first rep
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
@@ -487,26 +403,12 @@ start [[slnc 500]]
 [sleep: 10]
 next exercise
 blocked flexed dead bug
-10
-[sleep: 0.5]
-9
-[sleep: 0.5]
-8
-[sleep: 0.5]
-7
-[sleep: 0.5]
-6
-[sleep: 0.5]
-5
-[sleep: 0.5]
-4
-[sleep: 0.5]
-3
-[sleep: 0.5]
-2
-[sleep: 0.5]
-1
-[sleep: 0.5]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
 right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 5.0]
@@ -561,26 +463,12 @@ halfway
 [sleep: 5.0]
 next exercise
 bridge
-10
-[sleep: 0.5]
-9
-[sleep: 0.5]
-8
-[sleep: 0.5]
-7
-[sleep: 0.5]
-6
-[sleep: 0.5]
-5
-[sleep: 0.5]
-4
-[sleep: 0.5]
-3
-[sleep: 0.5]
-2
-[sleep: 0.5]
-1
-[sleep: 0.5]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
+[sound: /System/Library/Sounds/Funk.aiff]
+[sleep: 1]
 rep 1 set 1
 start [[slnc 500]]
 [sound: /System/Library/Sounds/Glass.aiff]
