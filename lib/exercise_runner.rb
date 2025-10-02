@@ -29,15 +29,26 @@ class ExerciseRunner
   def perform
     puts "\n=== Exercise #{@exercise_index + 1} of #{@total_exercises}: #{@exercise_name} ==="
 
+    # Announce exercise and countdown
+    @speaker.say("#{@exercise_name}")
+    10.downto(1) do |count|
+      @speaker.say(count.to_s)
+      @speaker.sleep 0.5
+    end
+
+    # TODO: Dispatch to pattern handler here
     (1..ROUNDS_PER_EXERCISE).each do |exercise_round|
       side, rep = determine_side_and_rep(exercise_round)
       rep_word = number_to_ordinal(rep)
 
-      announce_and_countdown(side, rep_word)
+      @speaker.say("#{side} #{rep_word} rep")
       perform_stretch
       announce_completion(exercise_round)
       rest_unless_final_round(exercise_round)
     end
+
+    # Announce completion
+    @speaker.say(@is_last_exercise ? "workout complete" : "next exercise")
   end
 
   private
@@ -58,14 +69,6 @@ class ExerciseRunner
     end
   end
 
-  def announce_and_countdown(side, rep_word)
-    @speaker.say("#{@exercise_name} #{side} #{rep_word} rep")
-    COUNTDOWN_DURATION.downto(1) do |count|
-      @speaker.say(count.to_s)
-      sleep 0.5
-    end
-  end
-
   def perform_stretch
     @speaker.say("start [[slnc 500]]")
     @speaker.play_sound(START_SOUND)
@@ -73,11 +76,11 @@ class ExerciseRunner
     elapsed = 0
     notifications = STRETCH_NOTIFICATIONS.select { |t| t < @duration }
     notifications.each do |notification_time|
-      sleep(notification_time - elapsed)
+      @speaker.sleep(notification_time - elapsed)
       @speaker.say("#{notification_time} seconds")
       elapsed = notification_time
     end
-    sleep(@duration - elapsed)
+    @speaker.sleep(@duration - elapsed)
   end
 
   def announce_completion(exercise_round)

@@ -1,4 +1,4 @@
-class AlternatingReps
+class Bilateral
   def initialize(exercise, speaker)
     @exercise_name = exercise[:name]
     @sets = exercise[:sets]
@@ -13,10 +13,9 @@ class AlternatingReps
       set_num = set_index + 1
 
       @reps.times do |rep_index|
-        side = rep_index.even? ? "right" : "left"
         rep_num = rep_index + 1
 
-        @speaker.say("#{side} rep #{rep_num} set #{set_num}")
+        @speaker.say("rep #{rep_num} set #{set_num}")
         perform_rep
 
         is_last_rep_of_set = (rep_index == @reps - 1)

@@ -11,14 +11,7 @@ class RightThenLeft
     @speaker = speaker
   end
 
-  def perform(is_last_exercise)
-    # Initial countdown at start of exercise
-    @speaker.say("#{@exercise_name}")
-    10.downto(1) do |count|
-      @speaker.say(count.to_s)
-      sleep 0.5
-    end
-
+  def perform
     total_rounds = @sets * 2
 
     (1..total_rounds).each do |round|
@@ -27,8 +20,8 @@ class RightThenLeft
 
       @speaker.say("#{side} #{rep_word} rep")
       perform_stretch
-      announce_completion(round, total_rounds, is_last_exercise)
-      rest_unless_final_round(round, total_rounds, is_last_exercise)
+      announce_completion(round, total_rounds)
+      rest_unless_final_round(round, total_rounds)
     end
   end
 
@@ -58,19 +51,17 @@ class RightThenLeft
     elapsed = 0
     notifications = STRETCH_NOTIFICATIONS.select { |t| t < @duration }
     notifications.each do |notification_time|
-      sleep(notification_time - elapsed)
+      @speaker.sleep(notification_time - elapsed)
       @speaker.say("#{notification_time} seconds")
       elapsed = notification_time
     end
-    sleep(@duration - elapsed)
+    @speaker.sleep(@duration - elapsed)
   end
 
-  def announce_completion(round, total_rounds, is_last_exercise)
+  def announce_completion(round, total_rounds)
     if round == @sets
       @speaker.say("switch")
-    elsif round == total_rounds
-      @speaker.say(is_last_exercise ? "workout complete" : "next exercise")
-    else
+    elsif round != total_rounds
       @speaker.say("rest")
       announce_remaining_reps(round)
     end
@@ -90,8 +81,8 @@ class RightThenLeft
     end
   end
 
-  def rest_unless_final_round(round, total_rounds, is_last_exercise)
-    return if is_last_exercise && round == total_rounds
-    sleep @rest
+  def rest_unless_final_round(round, total_rounds)
+    return if round == total_rounds
+    @speaker.sleep @rest
   end
 end

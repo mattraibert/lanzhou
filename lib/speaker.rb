@@ -10,4 +10,8 @@ class Speaker
   def play_sound(sound_path)
     `afplay #{sound_path}`
   end
+
+  def sleep(seconds)
+    Kernel.sleep(seconds)
+  end
 end
