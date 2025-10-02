@@ -1,4 +1,8 @@
 require_relative 'speaker'
+require_relative 'patterns/right_then_left'
+require_relative 'patterns/alternating_reps'
+require_relative 'patterns/bilateral'
+require_relative 'patterns/warm_up_flow'
 
 # Timing constants
 SETS_PER_SIDE = 3
@@ -36,16 +40,9 @@ class ExerciseRunner
       @speaker.sleep 0.5
     end
 
-    # TODO: Dispatch to pattern handler here
-    (1..SETS_PER_EXERCISE).each do |exercise_set|
-      side, rep = determine_side_and_rep(exercise_set)
-      rep_word = number_to_ordinal(rep)
-
-      @speaker.say("#{side} #{rep_word} rep")
-      perform_stretch
-      announce_completion(exercise_set)
-      rest_unless_final_set(exercise_set)
-    end
+    # Dispatch to pattern handler
+    pattern = create_pattern
+    pattern.perform
 
     # Announce completion
     @speaker.say(@is_last_exercise ? "workout complete" : "next exercise")
@@ -53,55 +50,20 @@ class ExerciseRunner
 
   private
 
-  def determine_side_and_rep(exercise_set)
-    if exercise_set <= SETS_PER_SIDE
-      ["right side", exercise_set]
+  def create_pattern
+    pattern_name = @exercise[:pattern]
+
+    case pattern_name
+    when "right then left"
+      RightThenLeft.new(@exercise, @speaker)
+    when "alternating reps"
+      AlternatingReps.new(@exercise, @speaker)
+    when "bilateral"
+      Bilateral.new(@exercise, @speaker)
+    when "warm-up flow"
+      WarmUpFlow.new(@exercise, @speaker)
     else
-      ["left side", exercise_set - SETS_PER_SIDE]
+      raise "Unknown pattern: #{pattern_name}"
     end
-  end
-
-  def number_to_ordinal(num)
-    case num
-    when 1 then "first"
-    when 2 then "second"
-    when 3 then "third"
-    end
-  end
-
-  def perform_stretch
-    @speaker.say("start [[slnc 500]]")
-    @speaker.play_sound(START_SOUND)
-
-    elapsed = 0
-    notifications = STRETCH_NOTIFICATIONS.select { |t| t < @duration }
-    notifications.each do |notification_time|
-      @speaker.sleep(notification_time - elapsed)
-      @speaker.say("#{notification_time} seconds")
-      elapsed = notification_time
-    end
-    @speaker.sleep(@duration - elapsed)
-  end
-
-  def announce_completion(exercise_set)
-    if exercise_set == SETS_PER_SIDE
-      @speaker.say("switch")
-    elsif exercise_set != SETS_PER_EXERCISE
-      @speaker.say("rest")
-      announce_remaining_reps(exercise_set)
-    end
-  end
-
-  def announce_remaining_reps(exercise_set)
-    if exercise_set == 1 || exercise_set == SETS_PER_SIDE + 1
-      @speaker.say("two left")
-    elsif exercise_set == 2 || exercise_set == SETS_PER_SIDE + 2
-      @speaker.say("one left")
-    end
-  end
-
-  def rest_unless_final_set(exercise_set)
-    return if exercise_set == SETS_PER_EXERCISE
-    @speaker.sleep @rest
   end
 end
