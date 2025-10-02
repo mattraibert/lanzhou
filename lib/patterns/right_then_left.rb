@@ -12,26 +12,26 @@ class RightThenLeft
   end
 
   def perform
-    total_rounds = @sets * 2
+    total_sets = @sets * 2
 
-    (1..total_rounds).each do |round|
-      side, rep = determine_side_and_rep(round)
+    (1..total_sets).each do |set_num|
+      side, rep = determine_side_and_rep(set_num)
       rep_word = number_to_ordinal(rep)
 
       @speaker.say("#{side} #{rep_word} rep")
       perform_stretch
-      announce_completion(round, total_rounds)
-      rest_unless_final_round(round, total_rounds)
+      announce_completion(set_num, total_sets)
+      rest_unless_final_set(set_num, total_sets)
     end
   end
 
   private
 
-  def determine_side_and_rep(round)
-    if round <= @sets
-      ["right side", round]
+  def determine_side_and_rep(set_num)
+    if set_num <= @sets
+      ["right side", set_num]
     else
-      ["left side", round - @sets]
+      ["left side", set_num - @sets]
     end
   end
 
@@ -58,21 +58,21 @@ class RightThenLeft
     @speaker.sleep(@duration - elapsed)
   end
 
-  def announce_completion(round, total_rounds)
-    if round == @sets
+  def announce_completion(set_num, total_sets)
+    if set_num == @sets
       @speaker.say("switch")
-    elsif round != total_rounds
+    elsif set_num != total_sets
       @speaker.say("rest")
-      announce_remaining_reps(round)
+      announce_remaining_reps(set_num)
     end
   end
 
-  def announce_remaining_reps(round)
-    total_rounds = @sets * 2
-    remaining = if round < @sets
-      @sets - round
+  def announce_remaining_reps(set_num)
+    total_sets = @sets * 2
+    remaining = if set_num < @sets
+      @sets - set_num
     else
-      total_rounds - round
+      total_sets - set_num
     end
 
     if remaining == 2
@@ -82,8 +82,8 @@ class RightThenLeft
     end
   end
 
-  def rest_unless_final_round(round, total_rounds)
-    return if round == total_rounds
+  def rest_unless_final_set(set_num, total_sets)
+    return if set_num == total_sets
     @speaker.sleep @rest
   end
 end

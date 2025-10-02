@@ -1,9 +1,9 @@
 require_relative 'speaker'
 
 # Timing constants
-ROUNDS_PER_SIDE = 3
+SETS_PER_SIDE = 3
 TOTAL_SIDES = 2
-ROUNDS_PER_EXERCISE = ROUNDS_PER_SIDE * TOTAL_SIDES
+SETS_PER_EXERCISE = SETS_PER_SIDE * TOTAL_SIDES
 STRETCH_DURATION = 30
 REST_DURATION = 2
 COUNTDOWN_DURATION = 5
@@ -37,14 +37,14 @@ class ExerciseRunner
     end
 
     # TODO: Dispatch to pattern handler here
-    (1..ROUNDS_PER_EXERCISE).each do |exercise_round|
-      side, rep = determine_side_and_rep(exercise_round)
+    (1..SETS_PER_EXERCISE).each do |exercise_set|
+      side, rep = determine_side_and_rep(exercise_set)
       rep_word = number_to_ordinal(rep)
 
       @speaker.say("#{side} #{rep_word} rep")
       perform_stretch
-      announce_completion(exercise_round)
-      rest_unless_final_round(exercise_round)
+      announce_completion(exercise_set)
+      rest_unless_final_set(exercise_set)
     end
 
     # Announce completion
@@ -53,11 +53,11 @@ class ExerciseRunner
 
   private
 
-  def determine_side_and_rep(exercise_round)
-    if exercise_round <= ROUNDS_PER_SIDE
-      ["right side", exercise_round]
+  def determine_side_and_rep(exercise_set)
+    if exercise_set <= SETS_PER_SIDE
+      ["right side", exercise_set]
     else
-      ["left side", exercise_round - ROUNDS_PER_SIDE]
+      ["left side", exercise_set - SETS_PER_SIDE]
     end
   end
 
@@ -83,25 +83,25 @@ class ExerciseRunner
     @speaker.sleep(@duration - elapsed)
   end
 
-  def announce_completion(exercise_round)
-    if exercise_round == ROUNDS_PER_SIDE
+  def announce_completion(exercise_set)
+    if exercise_set == SETS_PER_SIDE
       @speaker.say("switch")
-    elsif exercise_round != ROUNDS_PER_EXERCISE
+    elsif exercise_set != SETS_PER_EXERCISE
       @speaker.say("rest")
-      announce_remaining_reps(exercise_round)
+      announce_remaining_reps(exercise_set)
     end
   end
 
-  def announce_remaining_reps(exercise_round)
-    if exercise_round == 1 || exercise_round == ROUNDS_PER_SIDE + 1
+  def announce_remaining_reps(exercise_set)
+    if exercise_set == 1 || exercise_set == SETS_PER_SIDE + 1
       @speaker.say("two left")
-    elsif exercise_round == 2 || exercise_round == ROUNDS_PER_SIDE + 2
+    elsif exercise_set == 2 || exercise_set == SETS_PER_SIDE + 2
       @speaker.say("one left")
     end
   end
 
-  def rest_unless_final_round(exercise_round)
-    return if exercise_round == ROUNDS_PER_EXERCISE
+  def rest_unless_final_set(exercise_set)
+    return if exercise_set == SETS_PER_EXERCISE
     @speaker.sleep @rest
   end
 end
