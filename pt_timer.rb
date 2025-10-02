@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require_relative 'lib/exercise_runner'
 require_relative 'lib/workout_loader'
+require_relative 'lib/skip_handler'
 
 # PT Workout Timer Script
 # Usage: chmod +x pt_timer.rb && ./pt_timer.rb [start_index]
@@ -26,9 +27,14 @@ end
 
 puts "Starting from exercise #{start_index + 1}: #{exercises[start_index][:name]}\n\n" if start_index > 0
 
-exercises[start_index..-1].each_with_index do |exercise, offset|
-  exercise_index = start_index + offset
-  ExerciseRunner.new(exercise, exercise_index, exercises.length).perform
-end
+begin
+  exercises[start_index..-1].each_with_index do |exercise, offset|
+    exercise_index = start_index + offset
+    ExerciseRunner.new(exercise, exercise_index, exercises.length).perform
+  end
 
-puts "Workout finished!"
+  puts "Workout finished!"
+rescue QuitWorkout
+  puts "\nWorkout ended early."
+  exit 0
+end

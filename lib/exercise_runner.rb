@@ -19,28 +19,38 @@ class ExerciseRunner
   end
 
   def perform
-    puts "\n=== Exercise #{@exercise_index + 1} of #{@total_exercises}: #{@exercise_name} ==="
-    puts "(Press 's' to skip this exercise)"
+    loop do
+      puts "\n=== Exercise #{@exercise_index + 1} of #{@total_exercises}: #{@exercise_name} ==="
+      puts "(Press: 's' skip | 'r' restart | 'p' pause | 'q' or Ctrl-C quit)"
 
-    SkipHandler.start_listening(Thread.current)
+      SkipHandler.start_listening(Thread.current)
 
-    begin
-      # Announce exercise and countdown
-      @speaker.say("#{@exercise_name}")
-      6.times do |count|
-        @speaker.play_sound(COUNTDOWN_SOUND)
+      begin
+        # Announce exercise and countdown
+        @speaker.say("#{@exercise_name}")
+        6.times do |count|
+          @speaker.play_sound(COUNTDOWN_SOUND)
+        end
+
+        # Dispatch to pattern handler
+        pattern = create_pattern
+        pattern.perform
+
+        # Announce completion
+        @speaker.say(@is_last_exercise ? "workout complete" : "next exercise")
+        break  # Exercise completed successfully
+      rescue SkipExercise
+        # Exercise was skipped, just continue
+        break
+      rescue RestartExercise
+        # Restart the exercise - loop will continue
+        next
+      rescue QuitWorkout
+        # Re-raise to propagate up to main program
+        raise
+      ensure
+        SkipHandler.stop_listening
       end
-
-      # Dispatch to pattern handler
-      pattern = create_pattern
-      pattern.perform
-
-      # Announce completion
-      @speaker.say(@is_last_exercise ? "workout complete" : "next exercise")
-    rescue SkipExercise
-      # Exercise was skipped, just continue
-    ensure
-      SkipHandler.stop_listening
     end
   end
 
