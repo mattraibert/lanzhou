@@ -11,11 +11,12 @@ class Bilateral
   def perform
     @sets.times do |set_index|
       set_num = set_index + 1
+      @speaker.say("set #{set_num}")
 
       @reps.times do |rep_index|
         rep_num = rep_index + 1
 
-        @speaker.say("rep #{rep_num} set #{set_num}")
+        @speaker.say(rep_num)
         perform_rep
 
         is_last_rep_of_set = (rep_index == @reps - 1)
@@ -34,7 +35,6 @@ class Bilateral
   private
 
   def perform_rep
-    @speaker.say("start [[slnc 500]]")
     @speaker.play_sound('/System/Library/Sounds/Glass.aiff')
     @speaker.sleep @duration
     @speaker.play_sound('/System/Library/Sounds/Hero.aiff')

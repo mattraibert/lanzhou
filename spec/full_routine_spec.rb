@@ -58,7 +58,7 @@ RSpec.describe 'Full workout routine' do
     expect(output).to include("left")
 
     # Check for bilateral pattern
-    expect(output).to include("rep 1 set 1")
+    expect(output).to include("set 1")
 
     # Check completion
     expect(output).to include("workout complete")
