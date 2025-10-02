@@ -1,3 +1,5 @@
+require_relative '../audio_constants'
+
 class AlternatingReps
   def initialize(exercise, speaker)
     @exercise_name = exercise[:name]
@@ -36,8 +38,8 @@ class AlternatingReps
   private
 
   def perform_rep
-    @speaker.play_sound('/System/Library/Sounds/Glass.aiff')
+    @speaker.play_sound(START_SOUND)
     @speaker.sleep @duration
-    @speaker.play_sound('/System/Library/Sounds/Bottle.aiff')
+    @speaker.play_sound(END_SOUND)
   end
 end

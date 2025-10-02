@@ -1,5 +1,4 @@
-# Notification intervals during stretch (in seconds)
-STRETCH_NOTIFICATIONS = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
+require_relative '../audio_constants'
 
 class RightThenLeft
   def initialize(exercise, speaker)
@@ -46,7 +45,7 @@ class RightThenLeft
 
   def perform_stretch
     @speaker.say("start [[slnc 500]]")
-    @speaker.play_sound('/System/Library/Sounds/Glass.aiff')
+    @speaker.play_sound(START_SOUND)
 
     elapsed = 0
     notifications = STRETCH_NOTIFICATIONS.select { |t| t < @duration }
@@ -56,7 +55,7 @@ class RightThenLeft
       elapsed = notification_time
     end
     @speaker.sleep(@duration - elapsed)
-    @speaker.play_sound('/System/Library/Sounds/Bottle.aiff')
+    @speaker.play_sound(END_SOUND)
   end
 
   def announce_completion(set_num, total_sets)

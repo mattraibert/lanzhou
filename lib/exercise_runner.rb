@@ -3,20 +3,7 @@ require_relative 'patterns/right_then_left'
 require_relative 'patterns/alternating_reps'
 require_relative 'patterns/bilateral'
 require_relative 'patterns/warm_up_flow'
-
-# Timing constants
-SETS_PER_SIDE = 3
-TOTAL_SIDES = 2
-SETS_PER_EXERCISE = SETS_PER_SIDE * TOTAL_SIDES
-STRETCH_DURATION = 30
-REST_DURATION = 2
-COUNTDOWN_DURATION = 5
-
-# Notification intervals during stretch (in seconds)
-STRETCH_NOTIFICATIONS = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
-
-# Sound file
-START_SOUND = '/System/Library/Sounds/Glass.aiff'
+require_relative 'audio_constants'
 
 class ExerciseRunner
   def initialize(exercise, exercise_index, total_exercises, speaker: Speaker.new)
@@ -36,7 +23,7 @@ class ExerciseRunner
     # Announce exercise and countdown
     @speaker.say("#{@exercise_name}")
     6.times do |count|
-      @speaker.play_sound('/System/Library/Sounds/Basso.aiff')
+      @speaker.play_sound(COUNTDOWN_SOUND)
     end
 
     # Dispatch to pattern handler
