@@ -1,4 +1,4 @@
-require_relative '../audio_constants'
+require_relative '../rep_performer'
 
 class RightThenLeft
   def initialize(exercise, speaker)
@@ -8,6 +8,7 @@ class RightThenLeft
     @duration = exercise[:duration]
     @rest = exercise[:rest]
     @speaker = speaker
+    @rep_performer = RepPerformer.new(speaker, exercise[:duration])
   end
 
   def perform
@@ -18,7 +19,7 @@ class RightThenLeft
       rep_word = number_to_ordinal(rep)
 
       @speaker.say("#{side} #{rep_word} rep")
-      perform_stretch
+      @rep_performer.perform
       announce_completion(set_num, total_sets)
       rest_unless_final_set(set_num, total_sets)
     end
@@ -41,21 +42,6 @@ class RightThenLeft
     when 3 then "third"
     else num.to_s + "th"
     end
-  end
-
-  def perform_stretch
-    @speaker.say("start [[slnc 500]]")
-    @speaker.play_sound(START_SOUND)
-
-    elapsed = 0
-    notifications = STRETCH_NOTIFICATIONS.select { |t| t < @duration }
-    notifications.each do |notification_time|
-      @speaker.sleep(notification_time - elapsed)
-      @speaker.say("#{notification_time} seconds")
-      elapsed = notification_time
-    end
-    @speaker.sleep(@duration - elapsed)
-    @speaker.play_sound(END_SOUND)
   end
 
   def announce_completion(set_num, total_sets)
