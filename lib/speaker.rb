@@ -4,11 +4,11 @@ class Speaker
   end
 
   def say(text)
-    `say -v "#{@voice}" "#{text}"`
+    system('say', '-v', @voice, text)
   end
 
   def play_sound(sound_path)
-    `afplay #{sound_path}`
+    system('afplay', sound_path)
   end
 
   def sleep(seconds)
