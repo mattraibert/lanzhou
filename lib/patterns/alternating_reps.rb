@@ -13,10 +13,11 @@ class AlternatingReps
       set_num = set_index + 1
 
       @reps.times do |rep_index|
-        side = rep_index.even? ? "right" : "left"
-        rep_num = rep_index + 1
+        # Each rep is a pair: right then left
+        @speaker.say("right")
+        perform_rep
 
-        @speaker.say("#{side}")
+        @speaker.say("left")
         perform_rep
 
         is_last_rep_of_set = (rep_index == @reps - 1)

@@ -18,6 +18,26 @@ right
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Hero.aiff]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
 rest
 [sleep: 30]
 right
@@ -37,6 +57,26 @@ left
 [sleep: 10]
 [sound: /System/Library/Sounds/Hero.aiff]
 right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+left
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+right
+[sound: /System/Library/Sounds/Glass.aiff]
+[sleep: 10]
+[sound: /System/Library/Sounds/Hero.aiff]
+left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Hero.aiff]
