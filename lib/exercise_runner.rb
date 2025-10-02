@@ -4,6 +4,7 @@ require_relative 'patterns/alternating_reps'
 require_relative 'patterns/bilateral'
 require_relative 'patterns/warm_up_flow'
 require_relative 'audio_constants'
+require_relative 'skip_handler'
 
 class ExerciseRunner
   def initialize(exercise, exercise_index, total_exercises, speaker: Speaker.new)
@@ -19,19 +20,28 @@ class ExerciseRunner
 
   def perform
     puts "\n=== Exercise #{@exercise_index + 1} of #{@total_exercises}: #{@exercise_name} ==="
+    puts "(Press 's' to skip this exercise)"
 
-    # Announce exercise and countdown
-    @speaker.say("#{@exercise_name}")
-    6.times do |count|
-      @speaker.play_sound(COUNTDOWN_SOUND)
+    SkipHandler.start_listening(Thread.current)
+
+    begin
+      # Announce exercise and countdown
+      @speaker.say("#{@exercise_name}")
+      6.times do |count|
+        @speaker.play_sound(COUNTDOWN_SOUND)
+      end
+
+      # Dispatch to pattern handler
+      pattern = create_pattern
+      pattern.perform
+
+      # Announce completion
+      @speaker.say(@is_last_exercise ? "workout complete" : "next exercise")
+    rescue SkipExercise
+      # Exercise was skipped, just continue
+    ensure
+      SkipHandler.stop_listening
     end
-
-    # Dispatch to pattern handler
-    pattern = create_pattern
-    pattern.perform
-
-    # Announce completion
-    @speaker.say(@is_last_exercise ? "workout complete" : "next exercise")
   end
 
   private
