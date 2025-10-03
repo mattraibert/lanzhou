@@ -37,9 +37,9 @@ RSpec.describe 'Full workout routine' do
     expect(output).to include("sun salutation rep 1")
     expect(output).to include("kneeling windmill stretch")
     expect(output).to include("strap hamstring stretch")
-    expect(output).to include("active pigeon pose")
-    expect(output).to include("passive pigeon pose")
-    expect(output).to include("pigeon prep")
+    expect(output).to include("figure 4 er stretch")
+    expect(output).to include("pigeon pose")
+    expect(output).to include("low-lunge quad stretch")
     expect(output).to include("blocked flexed dead bug")
     expect(output).to include("bridge")
 

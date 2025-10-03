@@ -31,8 +31,6 @@ RSpec.describe ExerciseRunner do
       [sound: /System/Library/Sounds/Basso.aiff]
       [sound: /System/Library/Sounds/Basso.aiff]
       [sound: /System/Library/Sounds/Basso.aiff]
-      [sound: /System/Library/Sounds/Basso.aiff]
-      [sound: /System/Library/Sounds/Basso.aiff]
       next exercise
     OUTPUT
 
@@ -64,8 +62,6 @@ RSpec.describe ExerciseRunner do
 
     expected_output = <<~OUTPUT.strip
       final exercise
-      [sound: /System/Library/Sounds/Basso.aiff]
-      [sound: /System/Library/Sounds/Basso.aiff]
       [sound: /System/Library/Sounds/Basso.aiff]
       [sound: /System/Library/Sounds/Basso.aiff]
       [sound: /System/Library/Sounds/Basso.aiff]
