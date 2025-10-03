@@ -28,7 +28,7 @@ class ExerciseRunner
       begin
         # Announce exercise and countdown
         @speaker.say("#{@exercise_name}")
-        6.times do |count|
+        4.times do |count|
           @speaker.play_sound(COUNTDOWN_SOUND)
         end
 
