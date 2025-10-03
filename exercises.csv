@@ -1,10 +1,10 @@
-exercise_name,sets,reps,duration,rest,pattern
-sun salutation,3,1,3s,,warm-up flow
-kneeling windmill stretch,3,1,30s,2s,right then left
-strap hamstring stretch,3,1,30s,2s,right then left
-figure 4 er stretch,3,1,30s,2s,right then left
-pigeon pose,1,1,90s,0s,right then left
-low-lunge quad stretch,3,1,30s,2s,right then left
-blocked flexed dead bug,2,5,10s,20s,alternating reps
-bridge,2,10,10s,20s,bilateral
-banded clamshells,3,10,10s,0s,alternating sets
+exercise_name,sets,reps,duration,rep rest,set rest,pattern
+sun salutation,3,1,3s,0s,0s,warm-up flow
+kneeling windmill stretch,3,1,30s,2s,,right then left
+strap hamstring stretch,3,1,30s,2s,,right then left
+figure 4 er stretch,3,1,30s,2s,,right then left
+pigeon pose,3,1,30s,0s,20s,right then left
+low-lunge quad stretch,3,1,30s,0s,2s,right then left
+blocked flexed dead bug,2,5,10s,0s,30s,alternating reps
+bridge,2,10,10s,0s,30s,bilateral
+clamshells,3,10,10s,0s,30s,alternating sets
