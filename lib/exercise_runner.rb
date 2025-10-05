@@ -1,6 +1,7 @@
 require_relative 'speaker'
 require_relative 'patterns/right_then_left'
 require_relative 'patterns/alternating_reps'
+require_relative 'patterns/alternating_sets'
 require_relative 'patterns/bilateral'
 require_relative 'patterns/warm_up_flow'
 require_relative 'audio_constants'
@@ -64,6 +65,8 @@ class ExerciseRunner
       RightThenLeft.new(@exercise, @speaker)
     when "alternating reps"
       AlternatingReps.new(@exercise, @speaker)
+    when "alternating sets"
+      AlternatingSets.new(@exercise, @speaker)
     when "bilateral"
       Bilateral.new(@exercise, @speaker)
     when "warm-up flow"
