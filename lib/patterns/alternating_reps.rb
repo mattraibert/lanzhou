@@ -16,11 +16,13 @@ class AlternatingReps
       set_num = set_index + 1
 
       @reps.times do |rep_index|
+        rep_num = rep_index + 1
+
         # Each rep is a pair: right then left
-        @speaker.say("right")
+        @speaker.say("right #{rep_num}")
         @rep_performer.perform
 
-        @speaker.say("left")
+        @speaker.say("left #{rep_num}")
         @rep_performer.perform
       end
 
