@@ -80,3 +80,5 @@ left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 30]

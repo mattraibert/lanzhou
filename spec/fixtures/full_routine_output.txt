@@ -170,6 +170,8 @@ left side third rep
 20 seconds
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 3]
 next exercise
 strap hamstring stretch
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -238,6 +240,8 @@ left side third rep
 20 seconds
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 3]
 next exercise
 figure 4 er stretch
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -306,6 +310,8 @@ left side third rep
 20 seconds
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 3]
 next exercise
 pigeon pose
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -354,6 +360,8 @@ left side first rep
 80 seconds
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 0]
 next exercise
 low-lunge quad stretch
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -422,6 +430,8 @@ left side third rep
 20 seconds
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 3]
 next exercise
 blocked flexed dead bug
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -510,6 +520,8 @@ left
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 20]
 next exercise
 bridge
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -600,6 +612,8 @@ set 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 20]
 next exercise
 banded clamshell
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -864,4 +878,6 @@ left side set 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
+rest
+[sleep: 20]
 workout complete

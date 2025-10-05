@@ -22,17 +22,10 @@ class AlternatingReps
 
         @speaker.say("left")
         @rep_performer.perform
-
-        is_last_rep_of_set = (rep_index == @reps - 1)
-        is_last_set = (set_index == @sets - 1)
-
-        unless is_last_rep_of_set && is_last_set
-          if is_last_rep_of_set
-            @speaker.say("rest")
-            @speaker.sleep @rest
-          end
-        end
       end
+
+      @speaker.say("rest")
+      @speaker.sleep @rest
     end
   end
 end

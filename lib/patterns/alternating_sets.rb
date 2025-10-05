@@ -38,13 +38,11 @@ class AlternatingSets
   end
 
   def announce_completion(set_num, total_sets)
-    if set_num == total_sets
-      # Last set - no announcement
-    elsif set_num.odd?
+    if set_num.odd?
       @speaker.say("switch")
     else
       @speaker.say("rest")
-      announce_remaining_sets(set_num, total_sets)
+      announce_remaining_sets(set_num, total_sets) unless set_num == total_sets
     end
   end
 
@@ -59,7 +57,6 @@ class AlternatingSets
   end
 
   def rest_unless_final_set(set_num, total_sets)
-    return if set_num == total_sets
     @speaker.sleep @rest
   end
 end

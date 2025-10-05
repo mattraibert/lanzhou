@@ -21,7 +21,7 @@ class RightThenLeft
       @speaker.say("#{side} #{rep_word} rep")
       @rep_performer.perform
       announce_completion(set_num, total_sets)
-      rest_unless_final_set(set_num, total_sets)
+      rest_after_set(set_num, total_sets)
     end
   end
 
@@ -47,9 +47,9 @@ class RightThenLeft
   def announce_completion(set_num, total_sets)
     if set_num == @sets
       @speaker.say("switch")
-    elsif set_num != total_sets
+    else
       @speaker.say("rest")
-      announce_remaining_reps(set_num)
+      announce_remaining_reps(set_num) unless set_num == total_sets
     end
   end
 
@@ -68,8 +68,7 @@ class RightThenLeft
     end
   end
 
-  def rest_unless_final_set(set_num, total_sets)
-    return if set_num == total_sets
+  def rest_after_set(set_num, total_sets)
     @speaker.sleep @rest
   end
 end
