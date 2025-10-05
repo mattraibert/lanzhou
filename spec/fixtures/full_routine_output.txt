@@ -69,39 +69,6 @@ inhale up
 [sleep: 3]
 exhale hands down
 [sleep: 3]
-sun salutation rep 3
-inhale up
-[sleep: 3]
-exhale fold
-[sleep: 3]
-inhale up
-[sleep: 3]
-exhale back
-[sleep: 3]
-inhale up
-[sleep: 3]
-exhale back
-[sleep: 3]
-breathe
-[sleep: 3]
-1
-[sleep: 3]
-2
-[sleep: 3]
-3
-[sleep: 3]
-4
-[sleep: 3]
-5
-[sleep: 3]
-inhale forward
-[sleep: 3]
-exhale down
-[sleep: 3]
-inhale up
-[sleep: 3]
-exhale hands down
-[sleep: 3]
 next exercise
 kneeling windmill stretch
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -339,7 +306,7 @@ right side first rep
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 switch
-[sleep: 0]
+[sleep: 10]
 left side first rep
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
@@ -361,7 +328,7 @@ left side first rep
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 rest
-[sleep: 0]
+[sleep: 10]
 next exercise
 low-lunge quad stretch
 [sound: /System/Library/Sounds/Basso.aiff]
@@ -438,85 +405,85 @@ blocked flexed dead bug
 [sound: /System/Library/Sounds/Basso.aiff]
 [sound: /System/Library/Sounds/Basso.aiff]
 [sound: /System/Library/Sounds/Basso.aiff]
-right
+right 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-right
+right 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-right
+right 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-right
+right 4
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 4
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-right
+right 5
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 5
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 rest
 [sleep: 20]
-right
+right 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-right
+right 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 2
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-right
+right 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 3
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-right
+right 4
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 4
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-right
+right 5
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
-left
+left 5
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
@@ -705,7 +672,7 @@ left side set 1
 [sleep: 10]
 [sound: /System/Library/Sounds/Bottle.aiff]
 rest
-two left each side
+one left each side
 [sleep: 20]
 right side set 2
 1
@@ -751,93 +718,6 @@ right side set 2
 switch
 [sleep: 20]
 left side set 2
-1
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-2
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-3
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-4
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-5
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-6
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-7
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-8
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-9
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-10
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-rest
-one left each side
-[sleep: 20]
-right side set 3
-1
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-2
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-3
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-4
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-5
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-6
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-7
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-8
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-9
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-10
-[sound: /System/Library/Sounds/Glass.aiff]
-[sleep: 10]
-[sound: /System/Library/Sounds/Bottle.aiff]
-switch
-[sleep: 20]
-left side set 3
 1
 [sound: /System/Library/Sounds/Glass.aiff]
 [sleep: 10]
