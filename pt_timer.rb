@@ -27,13 +27,23 @@ end
 
 puts "Starting from exercise #{start_index + 1}: #{exercises[start_index][:name]}\n\n" if start_index > 0
 
+exercise_durations = []
+workout_start_time = Time.now
+
 begin
   current_index = start_index
 
   while current_index < exercises.length
     begin
       exercise = exercises[current_index]
+      exercise_start_time = Time.now
       ExerciseRunner.new(exercise, current_index, exercises.length).perform
+      exercise_end_time = Time.now
+
+      duration = exercise_end_time - exercise_start_time
+      exercise_durations << { name: exercise[:name], duration: duration }
+      puts "Duration: #{(duration / 60).floor}:#{(duration % 60).round.to_s.rjust(2, '0')}"
+
       current_index += 1  # Move to next exercise
     rescue PreviousExercise
       if current_index > 0
@@ -44,7 +54,20 @@ begin
     end
   end
 
+  workout_end_time = Time.now
+  total_duration = workout_end_time - workout_start_time
+
+  puts "\n" + "="*50
   puts "Workout finished!"
+  puts "="*50
+  puts "\nExercise Durations:"
+  exercise_durations.each_with_index do |entry, i|
+    mins = (entry[:duration] / 60).floor
+    secs = (entry[:duration] % 60).round
+    puts "#{i + 1}. #{entry[:name]}: #{mins}:#{secs.to_s.rjust(2, '0')}"
+  end
+  puts "\nTotal Workout Time: #{(total_duration / 60).floor}:#{(total_duration % 60).round.to_s.rjust(2, '0')}"
+  puts "="*50
 rescue QuitWorkout
   puts "\nWorkout ended early."
   exit 0
