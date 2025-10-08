@@ -15,7 +15,7 @@ class RepPerformer
       notifications = STRETCH_NOTIFICATIONS.select { |t| t < @duration }
       notifications.each do |notification_time|
         @speaker.sleep(notification_time - elapsed)
-        @speaker.say("#{notification_time} seconds")
+        @speaker.say_async("#{notification_time} seconds")
         elapsed = notification_time
       end
       @speaker.sleep(@duration - elapsed)

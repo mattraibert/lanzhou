@@ -31,6 +31,7 @@ class ExerciseRunner
         @speaker.say("#{@exercise_name}")
         4.times do |count|
           @speaker.play_sound(COUNTDOWN_SOUND)
+          @speaker.sleep(0.5)
         end
 
         # Dispatch to pattern handler
