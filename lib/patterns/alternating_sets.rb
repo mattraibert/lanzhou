@@ -16,9 +16,13 @@ class AlternatingSets
 
     (1..total_sets).each do |set_num|
       side = determine_side(set_num)
-      set_on_this_side = ((set_num + 1) / 2)
 
-      @speaker.say("#{side} set #{set_on_this_side}")
+      if @sets == 1
+        @speaker.say("#{side}")
+      else
+        set_on_this_side = ((set_num + 1) / 2)
+        @speaker.say("#{side} set #{set_on_this_side}")
+      end
 
       @reps.times do |rep_index|
         rep_num = rep_index + 1

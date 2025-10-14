@@ -14,7 +14,7 @@ class Bilateral
   def perform
     @sets.times do |set_index|
       set_num = set_index + 1
-      @speaker.say("set #{set_num}")
+      @speaker.say("set #{set_num}") if @sets > 1
 
       @reps.times do |rep_index|
         rep_num = rep_index + 1

@@ -16,9 +16,14 @@ class RightThenLeft
 
     (1..total_sets).each do |set_num|
       side, rep = determine_side_and_rep(set_num)
-      rep_word = number_to_ordinal(rep)
 
-      @speaker.say("#{side} #{rep_word} rep")
+      if @sets == 1
+        @speaker.say("#{side}")
+      else
+        rep_word = number_to_ordinal(rep)
+        @speaker.say("#{side} #{rep_word} rep")
+      end
+
       @rep_performer.perform
       announce_completion(set_num, total_sets)
       rest_after_set(set_num, total_sets)
